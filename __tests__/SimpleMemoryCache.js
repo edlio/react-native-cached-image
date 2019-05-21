@@ -37,3 +37,5 @@ SimpleMemoryCache.flush = async () => {
     return Promise.resolve();
 };
 export default SimpleMemoryCache;
+
+test.skip('skip', () => {}) // jest will skip this file. Without this, it will look for tests here and fail the tests.
